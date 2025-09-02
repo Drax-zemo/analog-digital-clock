@@ -29,6 +29,11 @@ analog-digital-clock/
    ```bash
    git clone https://github.com/<your-username>/analog-digital-clock.git
 2.Open index.html in any modern web browser.
-
 3.That’s it! 🎉
+
+## 🌍 Live Demo
+
+The project is live here:  
+👉 [View Demo](https://analog-digital-clock3.netlify.app/)
+
 
