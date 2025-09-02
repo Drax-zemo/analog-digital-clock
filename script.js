@@ -19,7 +19,7 @@ setInterval(() => {
   min_hand.style.transform = `rotate(${mrotation}deg)`;
   sec_hand.style.transform = `rotate(${srotation}deg)`;
 
-  // Digital
+  // Digital (12-hour format with leading zeros)
   let displayH = h % 12 || 12;
   dh.innerHTML = displayH < 10 ? "0" + displayH : displayH;
   dm.innerHTML = m < 10 ? "0" + m : m;
